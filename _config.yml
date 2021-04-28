@@ -15,6 +15,7 @@ author: Gurbaaz Singh Nandra
 # --- List of links in the navigation bar --- #
 collections:
   gallery:
+  team:
 
 navbar-links:
   About Us: "about-us"
@@ -51,7 +52,7 @@ social-network-links:
 # youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: "company/astroclubiitk"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78

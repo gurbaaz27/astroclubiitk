@@ -19,10 +19,8 @@ $(function() {
 
       if (localStorage.getItem('theme') == 'dark') {
         localStorage.setItem('theme', 'light'); 
-        console.log("dark removed") ; 
       } else {
         localStorage.setItem('theme', 'dark');
-        console.log("dark added") ;
       }
     });
   });

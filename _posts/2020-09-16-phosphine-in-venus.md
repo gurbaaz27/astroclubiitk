@@ -23,8 +23,8 @@ As the scientists themselves are insisting on, this doesn’t guarantee the pres
 
 Relevant Links :
 
-- [https://www.nationalgeographic.com/science/2020/09/possible-sign-of-life-found-on-venus-phosphine-gas/](https://www.nationalgeographic.com/science/2020/09/possible-sign-of-life-found-on-venus-phosphine-gas/)
+- [National Geographic](https://www.nationalgeographic.com/science/2020/09/possible-sign-of-life-found-on-venus-phosphine-gas/)
 
-- [http://astrobiology.com/2020/09/phosphine-on-venus-cannot-be-explained-by-conventional-processes.html](http://astrobiology.com/2020/09/phosphine-on-venus-cannot-be-explained-by-conventional-processes.html)
+- [Astrobiology](http://astrobiology.com/2020/09/phosphine-on-venus-cannot-be-explained-by-conventional-processes.html)
 
-- [https://blogs.sciencemag.org/pipeline/archives/2020/09/15/phosphine-life-and-venus](https://blogs.sciencemag.org/pipeline/archives/2020/09/15/phosphine-life-and-venus)
+- [Science Magazine Blog](https://blogs.sciencemag.org/pipeline/archives/2020/09/15/phosphine-life-and-venus)
