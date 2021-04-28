@@ -10,7 +10,7 @@ tags: [alien-life, astronomy, phosphine, space, venus]
 
 Before you even start wondering what is phosphine or what the heck does it have to do with life on Venus, just sit and relax and let me take you along the journey.
 
-<img src="/assets/img/venus.jpg">
+<img src="{{ site.baseurl }}/assets/img/venus.jpg">
 
 At one time, where with the sophisticated technological advancements we are looking for life on planets in galaxies millions of light years away, Earth’s twin Venus orbiting beside us is hinting possible signs of life. Single-line millimetre-waveband spectral detections identified 20 ppb abundance of atmospheric phosphine (PH3) on Venus. The observations were made through telescopes situated in Hawaii and Chile, James Clerk Maxwell Telescope (JCMT) and Atacama Large Millimeter/submillimeter Array (ALA) respectively in 2017 and 2019. The gas stretched from about 33 to 39 miles above the surface of Venus, which is at indeed brutal and inhospitable conditions.
 

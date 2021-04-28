@@ -17,7 +17,7 @@ collections:
   gallery:
 
 navbar-links:
-  About Us: "aboutme"
+  About Us: "about-us"
   Resources:
     - Wordpress: "https://astroclubiitk.wordpress.com/"
     # - Learn markdown: "https://www.markdowntutorial.com/"

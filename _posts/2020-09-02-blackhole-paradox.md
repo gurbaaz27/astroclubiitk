@@ -12,7 +12,7 @@ comments: true
 
 People often portray Black-holes as giant vacuum cleaners that destroy all that wearies too close. Though that statement itself is only an exaggeration, you certainly won’t be surprised to know the truth is even more unshakable. Here we address the first fear of the wandering mind which has just come to know these very real mathematical monsters. On their first introduction to the subject, most beginners learn that –
 
-<img src="/assets/img/blackhole-paradox.jpg" class="center">
+<img src="{{ site.baseurl }}/assets/img/blackhole-paradox.jpg" class="center">
 
 ## “NOTHING ESCAPES THE BLACKHOLE!”
 
