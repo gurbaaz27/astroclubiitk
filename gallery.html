@@ -2,14 +2,15 @@
 layout: page
 title: Gallery
 ---
-🚧 Under Construction...
-<!-- {% assign sorted_gallery = site.gallery | sort: 'weight' %}
-<ul class="photo-gallery">
-  {% for image in sorted_gallery %}
-    <li>
-      <a href="{{ image.link }}">
-        <img src="{{ image.image_path }}" alt="{{ image.title }}">
-      </a>
-    </li>
-  {% endfor %}
-</ul> -->
+
+<div class="container pt-6 pb-6">
+  <div class="row pt-6 pb-6">
+      {% for pic in site.gallery %}
+      <div class="col-12 col-md-6 mb-2">
+              {% if pic.image_path %}
+              <img alt="{{ pic.title }}" class="img-fluid mb-2 card-img-top" src="{{ site.baseurl }}{{ pic.image_path }}"/>
+              {% endif %}                         
+      </div>
+      {% endfor %}
+  </div>
+</div>

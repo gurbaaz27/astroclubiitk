@@ -40,4 +40,40 @@ layout: page
 
 <h3 style="text-align: center;">Ex-Coordinators (2022-23)</h3>
 
-🚧 Under Construction...
+<div class="container pt-6 pb-6">
+    <div class="row pt-6 pb-6">
+        {% for member in site.ex_team %}
+        <div class="col-12 col-md-6 mb-2">
+            <div class="card border-0">
+                {% if member.image_path %}
+                <img alt="{{ member.title }}" class="img-fluid mb-2 card-img-top" src="{{ site.baseurl }}{{ member.image_path }}" />
+                {% endif %}
+                <div class="card-body text-center" style="padding: 0px; padding-bottom: 10px;">
+                    <h4 class="card-title mb-0" style="padding-bottom: 10px; margin: 10px;">{{ member.title }}</h4>
+                    <h6 class="card-text">{{ member.info }}</h6>
+                </div>                
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<h3 style="text-align: center;">Our Sponsors ❤️</h3> 
+We express our sincerest gratitudes to all those willing to extend hands for help. Do checkout their websites for cool stuff!<br><br>
+
+<table align="center">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Domain</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for sponsor in site.sponsors %}
+        <tr>
+            <td><a href="{{ sponsor.link }}">{{ sponsor.name }}</a></td>
+            <td>{{ sponsor.domain }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>

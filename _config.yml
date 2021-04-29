@@ -16,12 +16,15 @@ author: Gurbaaz Singh Nandra
 collections:
   gallery:
   team:
+  sponsors:
+  ex_team:
 
 navbar-links:
   About Us: "about-us"
   Resources:
+    - Observatory Photographs: "https://docs.google.com/document/d/1mCkyUDDg3cBNqu79266P3woh9NWQ6ot8AZKWYAjWTaI/edit?usp=sharing"
+    - Past Work: "https://drive.google.com/drive/folders/1F9RBzVQRmNh8LXwnyuCQbQQKqdYHSl69?usp=sharing"
     - Wordpress: "https://astroclubiitk.wordpress.com/"
-    # - Learn markdown: "https://www.markdowntutorial.com/"
   Gallery: "gallery"
   Team: "team"
 
