@@ -993,3 +993,12 @@ pre {
   display: block;
   margin: 0 auto;
 }
+
+.card {
+  background-color: #e4e6eb;
+}
+
+.card-title,
+.card-text {
+  color: #404040;
+}
