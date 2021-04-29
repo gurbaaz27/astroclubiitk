@@ -6,7 +6,7 @@ title: Gallery
 <div class="container pt-6 pb-6">
   <div class="row pt-6 pb-6">
       {% for pic in site.gallery %}
-      <div class="col-12 col-md-6 mb-2">
+      <div class="col-12 col-md-12 mb-1">
               {% if pic.image_path %}
               <img alt="{{ pic.title }}" class="img-fluid mb-2 card-img-top" src="{{ site.baseurl }}{{ pic.image_path }}"/>
               {% endif %}                         
