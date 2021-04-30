@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #111;
+  /*background-image: url('https://images.unsplash.com/photo-1456530308602-976f6a4bb440?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b249ff8347a75e0348b9fd4f88fcab40');*/
+  background-position: 50%;
+  background-size: cover;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+canvas {
+  width: 200vmax;
+  height: 200vmax;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(0deg);
+  animation: star-trails-anim 4s steps(180) infinite;
+}
+
+@keyframes star-trails-anim {
+  0% {
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}

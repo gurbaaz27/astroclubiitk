@@ -243,6 +243,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - astro-prototype/
 
 plugins:
   - jekyll-paginate

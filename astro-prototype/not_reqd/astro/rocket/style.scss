@@ -1,0 +1,112 @@
+$light-blue : #3e4150;
+$dark-blue : #ddd;
+$beige : #ffedaa;
+$pink : #E47267;
+$dark-star: darken($light-blue, 15%);
+$light-star: darken($beige, 15%);
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-10deg);
+  } 100% {
+    transform: rotate(10deg);
+    fill: darken($pink, 7%)
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: translate(0, -10px);
+    fill: lighten($pink, 10%);
+  } 50% {
+    transform: translate(0, 4px);
+    fill: $pink;
+  } 75% {
+    transform: translate(0, -4px);
+    fill: darken($pink, 10%);
+  } 100% {
+    transform: translate(0, 2px);
+    fill: $pink;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) rotate(-7deg);
+  } 100% {
+    transform: translate(20vw, -10px) rotate(7deg);
+  }
+}
+
+@keyframes background-move {
+  0% {
+    transform: translate(0, 0);
+  } 100% {
+    transform: translate(0, 160vh);
+    opacity: 0.25;
+  }
+}
+
+body {
+  margin : 0;
+  background-color :  $light-blue;
+  position : relative;
+  overflow : hidden;
+}
+
+#Rocket {
+  height : 30rem;
+  position : absolute;
+  margin: 25vh 15vw;
+  display : block;
+  transform-origin: top;
+  animation: float 4s infinite alternate ease-in-out;
+  z-index: 100;
+  
+  #Flame {
+    fill : $pink;
+    transform-origin: top;
+    animation: rotate 4s infinite alternate ease-in-out;
+  }
+  
+  .flame-2 {
+     animation: scale 3s infinite alternate ease-in-out;
+  }
+  
+   .flame-3 {
+     animation: scale 3s infinite alternate-reverse ease-in-out;
+  } 
+  
+  .light {
+    fill : $beige;
+  }
+  
+  .dark {
+    fill : $dark-blue;
+  }
+}
+
+.light-star {
+  fill: $light-star;
+}
+
+.dark-star {
+  fill: $dark-star;
+}
+
+svg[id^="star-"] {
+  position: absolute;
+  display: block;
+  height: 5rem;
+  transform-origin: top;
+  animation: background-move 10s infinite normal linear;
+}
+
+@for $i from 1 through 50 {
+  #star-#{$i} {
+    top: - random(150) - 10 + vh;
+    left: random(100) + vw;
+    animation-delay: random(6) + s; 
+  }
+} 
+
