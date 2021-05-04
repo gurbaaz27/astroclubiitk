@@ -27,8 +27,8 @@ But here is the catch! Blackholes emit photons, but these emitted photons are ra
 
 Helpful links:- 
 
-- [Youtube](https://youtu.be/9XkHBmE-N34)
+- [Youtube: The Black Hole Information Paradox](https://youtu.be/9XkHBmE-N34)
 
 - HAWKING, S. Black hole explosions?. Nature 248, 30–31 (1974). 
-  - [https://doi.org/10.1038/248030a0](https://doi.org/10.1038/248030a0) 
-  - [http://dx.doi.org/10.4249/scholarpedia.7375](http://dx.doi.org/10.4249/scholarpedia.7375)
+  - [Black hole explosions?](https://doi.org/10.1038/248030a0) 
+  - [Bekenstein-Hawking entropy](http://dx.doi.org/10.4249/scholarpedia.7375)
