@@ -245,6 +245,8 @@ exclude:
   - screenshot.png
   - docs/
   - astro-prototype/
+  - build.sh
+  - collection-maker.sh
 
 plugins:
   - jekyll-paginate
